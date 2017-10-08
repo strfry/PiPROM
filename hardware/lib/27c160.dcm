@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 27C160
+D REPROM 1024 K x  16 bits (42 pins DIP or PLCC)
+K REPROM 1M x 16 bits
+F memory/27c160.pdf
+$ENDCMP
+#
+#End Doc Library
