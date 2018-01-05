@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name gtl2000)(type Legacy)(uri ${KIPRJMOD}/hardware/lib/gtl2000.lib)(options "")(descr ""))
+  (lib (name 27c160)(type Legacy)(uri ${KIPRJMOD}/hardware/lib/27c160.lib)(options "")(descr ""))
+)
