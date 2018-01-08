@@ -277,8 +277,8 @@ $Comp
 L Device:D_Zener D2
 U 1 1 5A4BB19E
 P 7400 2250
-F 0 "D2" V 7354 2329 50  0000 L CNN
-F 1 "5V6" V 7445 2329 50  0000 L CNN
+F 0 "D2" V 7350 2100 50  0000 L CNN
+F 1 "5V6" V 7450 2050 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7400 2250 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/Zener_diode" H 7400 2250 50  0001 C CNN
 	1    7400 2250
@@ -380,10 +380,29 @@ Connection ~ 7400 2500
 Wire Wire Line
 	7850 2350 7850 2500
 Wire Wire Line
-	7850 2500 7400 2500
+	7850 2500 7650 2500
 Wire Wire Line
 	7850 2050 7850 1600
 Connection ~ 7850 1600
 Wire Wire Line
 	7850 1600 7950 1600
+$Comp
+L Device:C C?
+U 1 1 5A644C0A
+P 7650 2200
+F 0 "C?" H 7650 2300 50  0000 L CNN
+F 1 "10u" H 7600 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7688 2050 50  0001 C CNN
+F 3 "" H 7650 2200 50  0001 C CNN
+	1    7650 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2350 7650 2500
+Connection ~ 7650 2500
+Wire Wire Line
+	7650 2500 7400 2500
+Wire Wire Line
+	7650 2050 7650 2000
+Connection ~ 7650 2000
 $EndSCHEMATC
