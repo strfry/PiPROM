@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name gtl2000)(type Legacy)(uri ${KIPRJMOD}/hardware/lib/gtl2000.lib)(options "")(descr ""))
   (lib (name 27c160)(type Legacy)(uri ${KIPRJMOD}/hardware/lib/27c160.lib)(options "")(descr ""))
+  (lib (name PT4101)(type Legacy)(uri /home/strfry/C3D2/V3s/LEDBoard/PT4101.lib)(options "")(descr ""))
+  (lib (name AP3012)(type Legacy)(uri /home/strfry/C3D2/PiProm/AP3012.lib)(options "")(descr ""))
 )
