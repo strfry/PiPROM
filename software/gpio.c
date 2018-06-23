@@ -14,7 +14,7 @@
 #define BCM2708_PERI_BASE        0x3F000000
 #define GPIO_BASE                (BCM2708_PERI_BASE + 0x200000) /* GPIO controller */
 
-#include "Designrecords.h" 
+#include "img_1.h" 
  
 #include <stdio.h>
 #include <stdlib.h>
